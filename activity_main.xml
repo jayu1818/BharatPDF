@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="20dp"
+ android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="🇮🇳 Bharat PDF" android:textSize="30sp" android:textStyle="bold"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="All-in-One PDF Tool" android:textSize="16sp"
+ android:layout_marginTop="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<Button android:id="@+id/scanButton" android:text="📷  Scan to PDF" android:layout_marginTop="22dp"
+ android:layout_width="match_parent" android:layout_height="54dp"/>
+<Button android:id="@+id/imagePdfButton" android:text="🖼️  Image to PDF" android:layout_marginTop="8dp"
+ android:layout_width="match_parent" android:layout_height="54dp"/>
+<Button android:id="@+id/mergeButton" android:text="🔗  Merge PDF" android:layout_marginTop="8dp"
+ android:layout_width="match_parent" android:layout_height="54dp"/>
+<Button android:id="@+id/splitButton" android:text="✂️  Split PDF" android:layout_marginTop="8dp"
+ android:layout_width="match_parent" android:layout_height="54dp"/>
+<Button android:id="@+id/compressButton" android:text="📉  Compress PDF" android:layout_marginTop="8dp"
+ android:layout_width="match_parent" android:layout_height="54dp"/>
+<Button android:id="@+id/lockButton" android:text="🔐  Lock PDF" android:layout_marginTop="8dp"
+ android:layout_width="match_parent" android:layout_height="54dp"/>
+<Button android:id="@+id/myPdfsButton" android:text="📂  My PDFs" android:layout_marginTop="8dp"
+ android:layout_width="match_parent" android:layout_height="54dp"/>
+<TextView android:id="@+id/statusText" android:text="Ready"
+ android:layout_marginTop="18dp" android:textSize="14sp"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>
